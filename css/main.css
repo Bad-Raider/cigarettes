@@ -1,11 +1,3 @@
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: red solid 2px;
-}
-
 a {
   text-decoration: none;
 }
@@ -19,7 +11,22 @@ ul {
   margin: 0px;
 }
 
+@font-face {
+  font-family: "GothamProLight";
+  src: url("../fonts/GothamProLight/GothamProLight.eot");
+  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLight/GothamProLight.woff") format("woff"), url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: red solid 2px;
 }/*# sourceMappingURL=main.css.map */
