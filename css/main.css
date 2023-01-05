@@ -29,4 +29,19 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   outline: red solid 2px;
+}
+
+.location__svg {
+  width: 13px;
+  height: 19px;
+}
+
+.logo__svg {
+  width: 62px;
+  height: 13px;
+}
+
+.menu-burger {
+  width: 14px;
+  height: 14px;
 }/*# sourceMappingURL=main.css.map */

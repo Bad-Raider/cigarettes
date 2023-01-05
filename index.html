@@ -18,9 +18,48 @@
     <!-------------- header ----------------->
     <header>
       <div class="container">
-        <a href="" class="location"></a>
-        <a href="" class="logo"></a>
-        <button class="menu"></button>
+        <a
+          href="https://goo.gl/maps/MmVVuVVwF4EtLSN28"
+          class="location"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <svg class="location__svg"
+            aria-label="Мітка з місцезнаходженням магазину на мапі"
+          >
+            <use
+              href="./images/sprite.svg#icon-pin_icon"
+            ></use>
+          </svg>
+        </a>
+        <a href="" class="logo">
+          <svg class="logo__svg">
+            <use
+              class="location__svg"
+              href="./images/sprite.svg#icon-logo"
+            ></use>
+          </svg>
+        </a>
+
+          <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg
+              width="14"
+              height="14"
+              aria-label="Кнопка виклику меню"
+            >
+              <use  class="nav__icon-burger" href="./images/decoration-img/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+        
+        <button class="menu-burger">
+          <svg class="menu-burger__svg">
+            <use
+              class="location__svg"
+              href="./images/sprite.svg#icon-hamburger_icon"
+            ></use>
+          </svg>
+
+        </button>
       </div>
     </header>
     <main>
